@@ -15,6 +15,9 @@ module.exports = ({ env }) => ({
         uploadStream: {},
         delete: {},
       },
+      "vercel-deploy": {
+        enabled: true,
+      },
     },
   },
 });
